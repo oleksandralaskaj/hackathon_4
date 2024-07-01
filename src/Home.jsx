@@ -1,4 +1,13 @@
-//insert search bar
+import {SizeSetter} from "./SizeSetter.jsx";
+import React from "react";
+import {SearchBar} from "./SearchBar.jsx";
 
-//btn 'search' fetches date and redirects to the /search/{...} page
+export const Home = () => {
+    return (
+        <>
+            <SizeSetter/>
+            <SearchBar />
+        </>
+    )
 
+}

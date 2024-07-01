@@ -41,8 +41,6 @@ export const SizeSetter = () => {
                     <button onClick={() => resizer(width, height)}>Change size</button>
                 </div>
             </div>
-
-            <Image/>
         </>
     )
 
